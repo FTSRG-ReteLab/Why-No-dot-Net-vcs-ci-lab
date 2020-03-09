@@ -18,7 +18,7 @@ public class TrainSystem {
 	}
 
 	public TrainSensor getSensor() {
-		return sensor;
+		return sensor
 	}
 
 	public TrainUser getUser() {
