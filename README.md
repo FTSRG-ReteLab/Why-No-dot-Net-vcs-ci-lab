@@ -24,7 +24,7 @@ To compile and run tests also execute:
 
 ### Structure
 
-The application represents a simple train controller system with the following three components.
+**The application represents a simple train controller system with the following three components.**
 
 * Sensor: The sensor can detect the change in the speed limit of the track and can signal in such cases to the controller.
 * Controller: The controller is responsible for controlling the reference speed of the train. The reference speed is set by the user, but the speed limit must also be kept.
@@ -46,3 +46,9 @@ The figure below illustrates this behavior using an example.
 1. As the joystick remains at a positive value, the reference speed is incremented again.
 1. However, it reaches the speed limit so in the next step it is not incremented even though the joystick still has a positive value.
 1. Later, the joystick is set to a negative position for one time unit, making the reference speed to decrease as well.
+
+## This ReadMe was edited by Menyus and Csingacs
+
+Menyus is a **student**
+Csingacs is a **student**
+[x] Tick this for awesomeness
