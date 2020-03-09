@@ -14,6 +14,7 @@ public class TrainSensorTest {
 
     @Test
     public void ThisIsAnExampleTestStub() {
-        // TODO Delete this and add test cases based on the issues
+        Tachograph table = new Tachograph();
+        Assert.assertFalse(table.table.isEmpty());
     }
 }
